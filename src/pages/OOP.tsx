@@ -67,12 +67,6 @@ function OOP(): JSX.Element
 
   return (
   <>
-    <div className="container-fluid d-flex justify-content-center align-items-center mainContainer">
-      <div className="ad1"></div>
-      <div className="ad1"></div>
-      <div className="ad1"></div>
-    </div>
-
     <div className="container-fluid mainContainer">
       <h1 className="mainHeader2"> OOP Lab Solutions </h1>
       <div className="table-responsive">
@@ -103,12 +97,6 @@ function OOP(): JSX.Element
       <textarea id="codeTextarea" value={ code } wrap="soft" readOnly className="courseTextarea"></textarea>
     </div>
   }
-
-    <div className="container-fluid d-flex d-sm-flex justify-content-center justify-content-sm-center mainContainer">
-      <div className="ad2"></div>
-      <div className="ad2"></div>
-      <div className="ad2"></div>
-    </div>
   </>
   ) ;
 }
