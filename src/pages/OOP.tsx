@@ -38,6 +38,7 @@ function OOP(): JSX.Element
     alert("Code Copied To Clipboard!") ;
   }
 
+  // Mapper 2
   const listMapper = (task: string, topic: string): JSX.Element =>
   {
     return (
