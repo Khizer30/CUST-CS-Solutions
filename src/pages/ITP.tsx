@@ -29,6 +29,9 @@ function ITP(): JSX.Element
   {
     setCode(data[topic][task]["Code"]) ;
     setShow(true) ;
+
+    // Scroll Into View
+    document.getElementById("codeDisplay").scrollIntoView(true) ;
   }
 
   // Copy Code
@@ -91,7 +94,7 @@ function ITP(): JSX.Element
     </div>
 
   { show &&
-    <div className="container-fluid mainContainer">
+    <div id="codeDisplay" className="container-fluid mainContainer">
       <div>
         <button type="button" onClick={ copy } className="btn btn-primary mainButton"> Copy To Clipboard </button>
       </div>
